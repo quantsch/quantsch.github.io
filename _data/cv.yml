@@ -1,0 +1,122 @@
+sidebar:
+    # Site Settings
+    title: CV
+    url: 'http://quants.ch'
+
+    # Profile information
+    name: Julian Busch
+    tagline: Quantitative Developer
+    avatar: profile.png  # 100x100px
+
+    # Sidebar links
+    email: jb at quants.ch
+    phone: +41 79 201 11 74
+    website: quants.ch # no http://
+    linkedin: julianbusch
+    github: quants-ch
+
+    languages:
+        - language:
+          idiom: German
+          level: Native
+        - language:
+          idiom: English
+          level: Proficient
+        - language:
+          idiom: French
+          level: Basic
+
+    interests:
+        - interest:
+          item: Mountainbiking
+          link:
+        - interest:
+          item: My Computer :-)
+          link:
+
+career-profile:
+    title: Career Profile
+    text: 'With a great flair for financial markets, proven record in Information Technology
+    and strong analytical skills, I am an ambitious team player who enjoys solving
+    complex problems.'
+
+studies:
+    - education:
+      degree: BSc in Applied Mathematics
+      university: Zurich University of Applies Sciences (ZHAW)
+      time: 2012 - 2016
+      details: "Major focus on financial mathematics, econometrics and statistics.
+      <p><i>Bachelor Thesis: Combining Short and Long Term Signals in the Design of
+      Trading Strategies</i></p>"
+
+experiences:
+    title: Experiences
+
+    experiences:
+        - role: Quantitative Developer
+          time: July 2016 - Present
+          company: Project-based work
+          details: Offer various services to clients in the financial industry.
+          bullets:
+              - '<b>January 2018 - today</b>: Fisch Asset Management AG as quantitative
+              developer, implementing an enterprise-level server-side R environment,
+              build a portfolio analytics system for the Multi Asset portfolio managers to
+              allow multi-dimensional analysis of portfolios and research projects
+              (portfolio optimization, fit covariance matrices, etc.). Furthermore,
+              introduction of a generic platform for automation of R scripts (without
+              professional versions of RStudio products) and a variety of Shiny Apps to
+              control the functionalities of the R environment with a GUI.'
+              - '<b>January 2017 - December 2017</b>: DDM AG as quantitative analyst,
+              standardization/automation of parts of the investment analysis process and
+              developing and extending the existing server-side R environment.'
+              - '<b>Older</b>: Two research projects together with the ZHAW, general IT Support
+              and website development.'
+
+
+        - role: Project Manager Business Intelligence (80%)
+          time: February 2014 – February 2016
+          company: Bouygues E&S FM Schweiz AG in Zurich, Switzerland
+          details: 'Build the Business Intelligence environment: Conception and implementation of
+          ETL processes and a Data Warehouse solution. Extend existing operative reporting
+          and integration into the BI environment. Build standard reports for clients, energy
+          consumption and QM reports as well as various ad-hoc analysis. Development of
+          various Excel VBA applications.'
+
+        - role: Business Intelligence Analyst (80%)
+          time: July 2013 – January 2014
+          company: Bank Frey & Co. AG in Zurich, Switzerland
+          details: 'Management, compliance and quality management reporting. Develop and
+          maintain the central Data Warehouse and ETL process as well as various tasks in
+          the core-banking system. As a part of the Business Intelligence team, being the
+          central contact for all teams when it comes to reporting and data analytics topics.'
+
+projects:
+    title: Project
+    intro: 'Please find the details of the projects on the <a href="/projects/">projects</a> site.'
+
+#    projects:
+#      - project:
+#        title: R Package 'Strategy'
+#        link: "#hook"
+#        tagline: "An R package to analyze quantitative trading Strategies. Not further developed at the moment."
+
+#publications:
+#    title: Publications
+#    intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+#
+#    publications:
+#      - paper:
+#        title: The Art of Computer Programming
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+
+
+skills:
+    title: Skills &amp; Proficiency
+    skills:
+        - skill:
+          name: R
+          level: 100%
+        - skill:
+          name: Web Development (HTML, CSS, Jekyll)
+          level: 80%

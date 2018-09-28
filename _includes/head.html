@@ -1,0 +1,25 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="{{site.baseurl}}/assets/plugins/bootstrap/css/bootstrap.min.css">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="{{site.baseurl}}/assets/plugins/font-awesome/css/all.min.css">
+	
+		
+	<!-- Theme CSS -->
+	<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    
+	<!-- Javascript -->
+    <script type="text/javascript" src="{{site.baseurl}}/assets/plugins/jquery.min.js"></script>
+	<script type="text/javascript" src="{{site.baseurl}}/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Custom JS -->
+	<script type="text/javascript" src="{{site.baseurl}}/assets/js/level-bar.min.js"></script>
+
+</head>

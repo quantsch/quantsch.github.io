@@ -1,0 +1,12 @@
+# Site Settings
+title: quants.ch
+email: jb@quants.ch
+baseurl: ""
+url: "http://quants.ch"
+github_username:  quants-ch
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM

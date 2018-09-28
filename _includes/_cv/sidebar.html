@@ -1,0 +1,19 @@
+{% assign sidebar = site.data.cv.sidebar %}
+<div class="sidebar-wrapper">
+
+  <div class="profile-container">
+
+    <img class="profile-img" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+
+    <p class="name">{{ sidebar.name }}</p>
+
+    <p class="tagline">{{ sidebar.tagline }}</p>
+
+  </div>
+
+  {% include _cv/contact.html %}
+  {% include _cv/education.html %}
+  {% include _cv/language.html %}
+  {% include _cv/interests.html %}
+
+</div>
