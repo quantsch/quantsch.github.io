@@ -4,7 +4,7 @@ layout: default
 
 {% include _cv/sidebar.html %}
 
-<div class="main-wrapper">
+<div class="cv-main-wrapper">
 
    {% include _cv/career-profile.html %}
    {% include _cv/experience.html %}
