@@ -7,8 +7,12 @@
     width: 280px;
     height: 100%;
     color: #fff;
+    padding-bottom: 20px;
     a {
         color: #fff;
+    }
+    h1, h2, h3 {
+        padding-top: 0px;
     }
     h1 {
         color: #fff;
@@ -127,14 +131,9 @@
 
 .cv-main-wrapper {
     background: #fff;
-    padding: 50px;
-    padding-left: 330px;
+    padding: 0px 40px 50px 330px;
 
     // CV CONTENT 
-    
-    .section {
-        margin-bottom: 60px;
-    }
 
     .experiences-section, .educations-section {
         .item {

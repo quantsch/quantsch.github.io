@@ -2,7 +2,7 @@
 title: quants.ch
 email: jb@quants.ch
 baseurl: ""
-url: "http://quants.ch"
+url: "https://quants.ch"
 github_username:  quants-ch
 # Build Settings
 sass:
