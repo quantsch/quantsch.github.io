@@ -5,19 +5,18 @@
         padding: 0;
     }
 
-    .sidebar-wrapper {
+    .cv-sidebar-wrapper {
         position: static;
         width: inherit;
     }
 
-    .main-wrapper {
+    .cv-main-wrapper {
         padding: 30px;
-    }
-
-    .main-wrapper .time {
-        position: static;
-        display: block;
-        margin-top: 5px;
+        .time {
+            position: static;
+            display: block;
+            margin-top: 5px;
+        }
     }
 
 }
