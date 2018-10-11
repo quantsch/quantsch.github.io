@@ -1,8 +1,8 @@
 # Site Settings
-title: quants.ch
+title: julianbusch.ch
 email: jb@quants.ch
 baseurl: ""
-url: "https://quants.ch"
+url: "https://julianbusch.ch"
 github_username:  quants-ch
 # Build Settings
 sass:

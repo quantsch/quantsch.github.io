@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "New Quants.ch Website"
+title:  "New Website"
 date:   2018-09-28 22:10:30
 categories: website
 ---
