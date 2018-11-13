@@ -3,7 +3,7 @@ title: julianbusch.ch
 email: jb@quants.ch
 baseurl: ""
 url: "https://julianbusch.ch"
-github_username:  quants-ch
+github_username:  quantsch
 # Build Settings
 sass:
   sass_dir: _sass

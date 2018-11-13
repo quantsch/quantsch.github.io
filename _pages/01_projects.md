@@ -13,7 +13,7 @@ use [https://github.com/quants-ch/Rd2md](github).
 
 Please use the following code to download the package: 
 
-<script src="https://gist.github.com/quants-ch/d10d966b364b3a8e1071af7e375326cf.js"></script>
+<script src="https://gist.github.com/quantsch/d10d966b364b3a8e1071af7e375326cf.js"></script>
 
 	
 ## R Package: Strategy
@@ -26,7 +26,7 @@ _Remarks: A fully documented version with vignettes will be available soon._
 
 Please use the following code to download the package:
 
-<script src="https://gist.github.com/quants-ch/58a65d1fc7118f2c03f80988fcd790b2.js"></script>
+<script src="https://gist.github.com/quantsch/58a65d1fc7118f2c03f80988fcd790b2.js"></script>
 
 
 ## R Package: MVOU
@@ -39,4 +39,4 @@ _Remarks: A fully documented version with vignettes will be available soon._
 
 Please use the following code to download the package: 
 
-<script src="https://gist.github.com/quants-ch/f8efe55ca1611e5ddd99fff0468d3ed2.js"></script>
+<script src="https://gist.github.com/quantsch/f8efe55ca1611e5ddd99fff0468d3ed2.js"></script>
