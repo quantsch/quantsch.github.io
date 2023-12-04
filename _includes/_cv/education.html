@@ -1,42 +1,15 @@
 {% if site.data.cv.studies %}
-    {% if site.education_in_main %}
-        <section class="section educations-section">
-        <h2 class="section-title"><i class="fa fa-graduation-cap"></i>Education</h2>
-        {% for education in site.data.cv.studies %}
-          <div class="item">
-          
-            <div class="meta">
-            
-              <div class="upper-row">
-                <div class="degree">{{ education.degree }}</div>
-                <div class="time">{{ education.time }}</div>
-              </div>
-              
-              <div class="university">{{ education.university }}</div>
-            </div>
-            
-            {% if education.detail %}
-            <div class="details">
-              <p>{{ education.detail }}</p>
-            </div>
-            {% endif %}
-          </div>
-        {% endfor %}
-        
-        </section>
-    {% else %}
-        <div class="education-container container-block">
+  <div class="education-container container-block">
 
-        <h2 class="container-block-title">Education</h2>
+  <h2 class="container-block-title">Education</h2>
 
-        {% for education in site.data.cv.studies %}
-            <div class="item">
-            <div class="degree">{{ education.degree }}</div>
-            <div class="meta">{{ education.university }}</div>
-            <div class="time">{{ education.time }}</div>
-        </div>
-      {% endfor %}
-
+  {% for education in site.data.cv.studies %}
+    <div class="item">
+        <div class="degree">{{ education.degree }}</div>
+        <div class="university">{{ education.university }}</div>
+        <div class="time">{{ education.time }}</div>
     </div>
-    {% endif %}
+  {% endfor %}
+
+  </div>
 {% endif %}

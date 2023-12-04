@@ -5,13 +5,7 @@
 {% for experience in site.data.cv.experiences.experiences %}
   <div class="item">
 
-    <div class="meta">
-
-      <div class="upper-row">
-        <div class="company">{{ experience.company }}</div>
-      </div><!--//upper-row-->
-
-    </div><!--//meta-->
+    <div class="company">{{ experience.company }}</div>
 
     <div class="roles">
       {% for role in experience.roles %}
