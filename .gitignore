@@ -1,2 +1,4 @@
 .sass-*
 _site
+.jekyll-*
+Gemfile.lock
