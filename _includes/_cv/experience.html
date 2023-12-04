@@ -8,26 +8,20 @@
     <div class="meta">
 
       <div class="upper-row">
-        <p class="job-title">{{ experience.role }}</p>
-        <div class="time">{{ experience.time }}</div>
+        <div class="company">{{ experience.company }}</div>
       </div><!--//upper-row-->
-
-      <div class="company">{{ experience.company }}</div>
 
     </div><!--//meta-->
 
-    {% if experience.details %}
-    <div class="details">
-      <p>{{ experience.details }}</p>
-      {% if experience.bullets %}
-      <ul>
-        {% for bullet in experience.bullets %}
-        <li>{{ bullet }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
+    <div class="roles">
+      {% for role in experience.roles %}
+      <div class="role">
+        <div class="role-title">{{ role.title }}</div>
+        <div class="role-time">{{ role.time }}</div>
+        <div class="role-description">{{ role.description }}</div>
+      </div>
+      {% endfor %}
     </div><!--//details-->
-    {% endif %}
 
   </div><!--//item-->
 {% endfor %}

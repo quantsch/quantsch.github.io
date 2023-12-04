@@ -1,5 +1,5 @@
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     body{
         padding: 0;
@@ -17,6 +17,25 @@
             display: block;
             margin-top: 5px;
         }
+    }
+
+}
+
+@media print {
+
+    html, body {
+        padding: 0;
+        height: 100%;
+    }
+
+    navbar, footer {
+        display: none;
+    }
+
+    .wrapper {
+        margin: 0;
+        max-width: 100%;
+        min-height: 100%;
     }
 
 }
