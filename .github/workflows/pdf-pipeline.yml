@@ -52,6 +52,7 @@ jobs:
 
   create_cv_pdf:
     runs-on: ubuntu-20.04
+    needs: deploy
     steps:
       - name: Create PDF
         run: |
