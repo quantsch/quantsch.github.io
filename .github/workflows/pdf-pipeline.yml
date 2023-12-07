@@ -15,5 +15,5 @@ jobs:
       - name: Archive PDF
         uses: actions/upload-artifact@v3
         with:
-          name: julianbusch-cv
+          name: julianbusch-cv.pdf
           path: julianbusch-cv.pdf
