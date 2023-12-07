@@ -8,5 +8,6 @@ github_username:  quantsch
 sass:
   sass_dir: _sass
 include: ['_pages']
+exclude: ['Makefile']
 kramdown:
   input: GFM
