@@ -24,6 +24,17 @@
         }
     }
 
+    .cv-main-wrapper {
+        .roles {
+            .role {
+                .role-time {
+                    position: static;
+                    clear: both;
+                }
+            }
+        }
+    }
+
 }
 
 @media print {
