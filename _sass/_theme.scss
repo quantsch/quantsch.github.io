@@ -26,4 +26,4 @@ $color-link-visited:  darken($blue, 10%);
 
 /* color assignment page level */
 $color-cv-sidebar: #42A8C0;
-$darkener-cv-sidebar-top: rgba(0, 0, 0, 0.2); ;
+$color-cv-sidebar-top: darken($color-cv-sidebar, 10%)

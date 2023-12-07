@@ -16,16 +16,7 @@
         text-align: center;
         z-index: 1000;
         padding: 10px;
-        background-color: $color-cv-sidebar;
-        &::after {
-            content: "";
-            background-color: $darkener-cv-sidebar-top;
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-        }
+        background-color: $color-cv-sidebar-top;
         a {
             color: #fff;
         }
