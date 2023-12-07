@@ -10,6 +10,27 @@
         margin-top: 0;
     }
 
+    .cv-download-pdf {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        z-index: 1000;
+        padding: 10px;
+        background-color: $color-cv-sidebar;
+        &::after {
+            content: "";
+            background-color: $darkener-cv-sidebar-top;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
+        a {
+            color: #fff;
+        }
+    }
+
     .cv-sidebar-wrapper {
         position: static;
         width: inherit;
@@ -52,6 +73,10 @@
         margin: 0;
         max-width: 100%;
         min-height: 100%;
+    }
+
+    .cv-download-pdf {
+        display: none;
     }
 
 }

@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% include _cv/download.html %}
 {% include _cv/sidebar.html %}
 
 <div class="cv-main-wrapper">

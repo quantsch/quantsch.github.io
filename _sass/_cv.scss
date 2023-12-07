@@ -1,3 +1,12 @@
+.cv-download-pdf {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    z-index: 1000;
+    padding: 10px;
+}
+
 // SIDEBAR
     
 .cv-sidebar-wrapper {
@@ -18,7 +27,7 @@
     }
     .profile-container {
         padding: 30px;
-        background: rgba(0, 0, 0, 0.2);
+        background: $darkener-cv-sidebar-top;
         text-align: center;
         color: #fff;
     }
