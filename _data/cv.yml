@@ -9,7 +9,7 @@ sidebar:
     avatar: profile.png  # 100x100px
 
     # Sidebar links
-    email: jb at quants.ch
+    email: jb@quants.ch
     phone: +41 79 201 11 74
     website: julianbusch.ch # no http://
     linkedin: julianbusch
@@ -44,49 +44,66 @@ experiences:
 
     experiences:
         - company: Fisch Asset Management
-          time: January 2018 - May 2023
           roles:
-              - title: Portfolio Manager
+              - title: Multi Asset Solutions Portfolio Manager
                 time: December 2021 - May 2023
-                description: "Multi Asset Solutions PM"          
+                description: "With ~1.5bn CHF AuM, co-managing two mutual funds
+                and four discretionary mandates. Primary responsibility over
+                the systematic components of the investment process as well as
+                the whole operational value chain like instrument selection,
+                order process, rebalancing, risk analysis, etc."          
               - title: Head Quantitative Solutions
                 time: April 2021 - November 2021
-                description: "Lead a team of two senior engineers"
+                description: "Lead a team of two senior engineers to accelerate the
+                adoption of quantitative methods for all portfolio management teams.
+                Completed the delivery of momentum signals on equities for convertible
+                bond portfolio managers."
               - title: Senior Quantitative Developer
                 time: January 2019 - December 2020
-                description: "Various internal quant projects for portfolio managers"
+                description: "Migration of variety of services into aws cloud, using
+                DevOps methodology and cloud-native infrastructure through IaC.
+                Development of RiskEngine, a tool for risk and performance metrics on timeseries."
               - title: Quantitative Developer
                 time: January 2018 - December 2018
-                description: "Development of server side R based portfolio management environment 
-                for the Multi Asset Solutions team"
+                description: "Development of a server-side, R based portfolio management analytics environment 
+                for the Multi Asset Solutions team, including proprietary R packages and
+                a dedicated read-optimized database. Enabled citizen developers concept to create own analysis and reports."
         - company: DDM
-          time: January 2017 - December 2017
           roles: 
               - title: Quantitative Analyst
                 time: January 2017 - December 2017
                 description: "Pricing of Eastern European distressed debt loan portfolios"
         - company: Bouygues E&S FM Schweiz
-          time: February 2014 - February 2016
           roles: 
               - title: Business Intelligence Manager (80%)
                 time: February 2014 - February 2016
                 description: "Data engineering, reporting, project management" 
         - company: Bank Frey & Co. AG
-          time: July 2013 - January 2014
           roles:
               - title: Business Intelligence Analyst (80%)
                 time: July 2013 - January 2014
                 description: "Data engineering, reporting"
+        - company: PwC
+          roles:
+              - title: Support Assistant
+                time: July 2011 - June 2013
+        - company: Bombardier
+          roles:
+              - title: Internship HQ Management
+                time: April 2011 - June 2011
 
 skills:
     title: Skills &amp; Proficiency
     skills:
         - skill:
-          name: R
+          name: R, Python
           level: 100%
         - skill:
           name: Portfolio Management
           level: 100%
+        - skill:
+          name: Bloomberg Terminal
+          level: 80%
         - skill:
           name: Quantitative Investment Analysis
           level: 80%
