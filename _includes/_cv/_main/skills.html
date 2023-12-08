@@ -1,24 +1,24 @@
 {% if site.data.cv.skills %}
 <section class="skills-section section">
 
-  <h2 class="section-title"><i class="fa fa-rocket"></i>{{site.data.cv.skills.title}}</h2>
+<h2 class="section-title">{{site.data.cv.skills.title}}</h2>
 
-  <div class="skillset">
+<div class="skillset">
 
     {% for skill in site.data.cv.skills.skills %}
     <div class="item">
 
-      <h3 class="level-title">{{ skill.name }}</h3>
+    <h3 class="level-title">{{ skill.name }}</h3>
 
-      <div class="level-bar">
+    <div class="level-bar">
         <div class="level-bar-inner" style="width: {{ skill.level }};">
         </div>
-      </div><!--//level-bar-->
+    </div><!--//level-bar-->
 
     </div><!--//item-->
     {% endfor %}
 
-  </div>
+</div>
 
 </section><!--//skills-section-->
 {% endif %}

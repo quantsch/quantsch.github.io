@@ -1,25 +1,24 @@
 {% if site.data.cv.experiences %}
 <section class="section experiences-section">
-  <h2 class="section-title"><i class="fa fa-briefcase"></i>{{site.data.cv.experiences.title}}</h2>
+<h2 class="section-title">{{site.data.cv.experiences.title}}</h2>
 
 {% for experience in site.data.cv.experiences.experiences %}
-  <div class="item">
+<div class="item">
 
     <div class="company">{{ experience.company }}</div>
 
     <div class="roles">
-      {% for role in experience.roles %}
-      <div class="role">
+    {% for role in experience.roles %}
+    <div class="role">
         <div class="role-title">{{ role.title }}</div>
         <div class="role-time">{{ role.time }}</div>
         <div class="role-description">{{ role.description }}</div>
-      </div>
-      {% endfor %}
+    </div>
+    {% endfor %}
     </div><!--//details-->
 
-  </div><!--//item-->
+</div><!--//item-->
 {% endfor %}
 
 </section><!--//section-->
 {% endif %}
-
