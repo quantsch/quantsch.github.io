@@ -43,15 +43,15 @@ experiences:
     title: Experience
 
     experiences:
-        - company: Fisch Asset Management
+        - company: Fisch Asset Management AG, Zurich
           roles:
               - title: Multi Asset Solutions Portfolio Manager
                 time: December 2021 - May 2023
-                description: "With ~1.5bn CHF AuM, co-managing two mutual funds
-                and four discretionary mandates. Primary responsibility over
-                the systematic components of the investment process as well as
-                the whole operational value chain like instrument selection,
-                order process, rebalancing, risk analysis, etc."          
+                description: "Co-responsibility of two mutual funds and four discretionary mandates
+                with a total of approximately 1.5bn CHF AuM.
+                Primary responsibility over the systematic components of the investment process
+                as well as the whole operational value chain like instrument selection,
+                order process, rebalancing and risk analysis."          
               - title: Head Quantitative Solutions
                 time: April 2021 - November 2021
                 description: "Lead a team of two senior engineers to accelerate the
@@ -60,15 +60,15 @@ experiences:
                 bond portfolio managers."
               - title: Senior Quantitative Developer
                 time: January 2019 - December 2020
-                description: "Migration of variety of services into aws cloud, using
-                DevOps methodology and cloud-native infrastructure through IaC.
+                description: "Migration of variety of services into AWS cloud, using
+                DevOps methodology and cloud-native infrastructure through infrastructure as code.
                 Development of RiskEngine, a tool for risk and performance metrics on timeseries."
               - title: Quantitative Developer
                 time: January 2018 - December 2018
                 description: "Development of a server-side, R based portfolio management analytics environment 
                 for the Multi Asset Solutions team, including proprietary R packages and
                 a dedicated read-optimized database. Enabled citizen developers concept to create own analysis and reports."
-        - company: DDM
+        - company: DDM AG, Baar
           roles: 
               - title: Quantitative Analyst
                 time: January 2017 - December 2017
@@ -83,7 +83,7 @@ experiences:
               - title: Business Intelligence Analyst (80%)
                 time: July 2013 - January 2014
                 description: "Data engineering, reporting"
-        - company: PwC
+        - company: PwC AG, Zurich
           roles:
               - title: Support Assistant
                 time: July 2011 - June 2013
