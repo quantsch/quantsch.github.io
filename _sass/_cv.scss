@@ -136,7 +136,16 @@
 
 .cv-main-wrapper {
     background: #fff;
-    padding: 0px 40px 50px 50px;
+    padding: 0 40px 50px 50px;
+
+    .cv-site-version {
+        // this keeps element dimensions in place
+        visibility: hidden;
+        padding-bottom: 5px;
+        position: absolute;
+        bottom: 0px;
+        font-size: 10px;
+    }
 
     // CV CONTENT 
 

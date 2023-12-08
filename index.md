@@ -11,4 +11,8 @@ layout: default
    {% include _cv/experience.html %}
    {% include _cv/skills.html %}
 
+   <div class="section cv-site-version">
+      Version <a href="https://github.com/{{ sidebar.github }}/{{ sidebar.github-project }}/tree/{% include site-version.txt %}">{% include site-version.txt %}</a>
+   </div>
+
 </div>
