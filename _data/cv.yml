@@ -98,6 +98,9 @@ skills:
           name: Portfolio Management
           level: 100%
         - skill:
+          name: Project Management
+          level: 80%
+        - skill:
           name: Bloomberg Terminal
           level: 80%
         - skill:
@@ -105,7 +108,7 @@ skills:
           level: 80%
         - skill:
           name: Data Analytics
-          level: 80%
+          level: 60%
         - skill:
           name: Linux
           level: 50%
