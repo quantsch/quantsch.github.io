@@ -14,7 +14,6 @@ sidebar:
     website: julianbusch.ch # no http://
     linkedin: julianbusch
     github: quantsch
-    github-project: quantsch.github.io
 
     languages:
         - language:
@@ -73,12 +72,12 @@ experiences:
               - title: Quantitative Analyst
                 time: January 2017 - December 2017
                 description: "Pricing of Eastern European distressed debt loan portfolios"
-        - company: Bouygues E&S FM Schweiz
+        - company: Bouygues E&S FM Schweiz AG, Zurich
           roles: 
               - title: Business Intelligence Manager (80%)
                 time: February 2014 - February 2016
                 description: "Data engineering, reporting, project management" 
-        - company: Bank Frey & Co. AG
+        - company: Bank Frey & Co. AG, Zurich
           roles:
               - title: Business Intelligence Analyst (80%)
                 time: July 2013 - January 2014
