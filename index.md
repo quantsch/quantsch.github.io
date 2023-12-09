@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="cv-download-pdf">
-  <a href="assets/cv-julianbusch.pdf">Download PDF</a>
+  <a href="/assets/cv-julianbusch.pdf">Download PDF</a>
 </div>
 
 {% assign sidebar = site.data.cv.sidebar %}
