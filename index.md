@@ -11,7 +11,7 @@ layout: default
 
   <div class="profile-container">
 
-    <img class="profile-img" src="{{ site.url }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    <img class="profile-img" src="/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
 
     <p class="name">{{ sidebar.name }}</p>
 
