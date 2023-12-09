@@ -44,7 +44,7 @@ jobs:
         run: |
           sudo apt-get update &&
           sudo apt-get install --no-install-recommends -y wkhtmltopdf &&
-          sudo wkhtmltopdf -T 0 -B 0 -L 0 -R 0 --page-size A4 --dpi 600 --enable-local-file-access ./_site/index.html ./_site/assets/cv-julianbusch.pdf
+          make serve && sudo make pdf
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 
