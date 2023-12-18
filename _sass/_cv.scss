@@ -182,6 +182,10 @@
                 top: 0;
                 color: $color-text-grey;
             }
+            .role-company {
+                clear: both;
+                font-style: italic;
+            }
             .role-description {
                 
             }
@@ -209,14 +213,10 @@
         &:last-child {
             margin-bottom: 0;
         }
-    }
-
-    .level-bar {
-        height: 12px;
-        background: $white-smoky;
-    }
-    .level-bar-inner {
-        height: 12px;
-        background: lighten($color-cv-sidebar, 15%);
+        .level-title {
+            font-weight: bold;
+        }
+        .level-description {
+        }
     }
 }

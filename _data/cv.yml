@@ -40,6 +40,7 @@ experiences:
 
     experiences:
         - company: Fisch Asset Management AG, Zurich
+          relevant: true
           roles:
               - title: Multi Asset Solutions Portfolio Manager
                 time: December 2021 - May 2023
@@ -52,63 +53,66 @@ experiences:
                 time: April 2021 - November 2021
                 description: "Lead a team of two senior engineers to accelerate the
                 adoption of quantitative methods for all portfolio management teams.
-                Completed the delivery of momentum signals on equities for convertible
+                Completed the delivery of momentum signals on single equities for convertible
                 bond portfolio managers."
               - title: Senior Quantitative Developer
                 time: January 2019 - December 2020
-                description: "Migration of variety of services into AWS cloud, using
-                DevOps methodology and cloud-native infrastructure through infrastructure as code.
+                description: "Migration of a variety of services to AWS, using
+                DevOps methodology and cloud-native infrastructure as code.
                 Development of RiskEngine, a tool for risk and performance metrics on timeseries."
               - title: Quantitative Developer
                 time: January 2018 - December 2018
-                description: "Development of a server-side, R based portfolio management analytics environment 
+                description: "Development of a server-side, R-based portfolio management analytics environment 
                 for the Multi Asset Solutions team, including proprietary R packages and
-                a dedicated read-optimized database. Enabled citizen developers concept to create own analysis and reports."
+                a dedicated read-optimized database. Introduced the citizen developers concept to create own analysis and reports."
         - company: DDM AG, Baar
+          relevant: false
           roles: 
               - title: Quantitative Analyst
                 time: January 2017 - December 2017
-                description: "Pricing of Eastern European distressed debt portfolios"
         - company: Bouygues E&S FM Schweiz AG, Zurich
+          relevant: false
           roles: 
-              - title: Business Intelligence Manager (80%)
-                time: February 2014 - February 2016
-                description: "Data engineering, reporting, project management" 
+            - title: Business Intelligence Manager (80%)
+              time: February 2014 - February 2016
         - company: Bank Frey & Co. AG, Zurich
+          relevant: false
           roles:
-              - title: Business Intelligence Analyst (80%)
-                time: July 2013 - January 2014
-                description: "Data engineering, reporting"
+            - title: Business Intelligence Analyst (80%)
+              time: July 2013 - January 2014
         - company: PwC AG, Zurich
+          relevant: false
           roles:
-              - title: Support Assistant
-                time: July 2011 - June 2013
+            - title: Support Assistant
+              time: July 2011 - June 2013
         - company: Bombardier Transportation AG, Zurich
+          relevant: false
           roles:
-              - title: Intern HQ Management
-                time: April 2011 - June 2011
+            - title: Intern HQ Management
+              time: April 2011 - June 2011
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills & Proficiency
     skills:
-        - skill:
-          name: R, Python
-          level: 100%
-        - skill:
-          name: Portfolio Management
-          level: 100%
-        - skill:
-          name: Project Management
-          level: 80%
-        - skill:
-          name: Bloomberg Terminal
-          level: 80%
-        - skill:
-          name: Quantitative Investment Analysis
-          level: 80%
-        - skill:
-          name: Data Analytics
-          level: 60%
-        - skill:
-          name: Linux
-          level: 50%
+      - skill:
+        name: R, Python
+        description: "Used R as primary language for fully reproducible research, analysis and models
+        in the context of portfolio management, Python for all other production backend services.
+        Everything was version controlled through git."
+      - skill:
+        name: DevOps
+        description: "Deployed Docker-based services through Github CI/CD,
+        including fully automated testing, to Amazon AWS, using
+        infrastructure as code with Terraform and AWS CDK."
+      - skill:
+        name: Project Management
+        description: "Managed firm-wide multi-quarter projects spanning internal teams and
+        external service providers. Primarily used Jira and Confluence as tooling."
+      - skill:
+        name: Portfolio Management
+        description: "Worked on all levels from research through to implementation, strategic to tactical asset allocation,
+        using Bloomberg Terminal as well as Blackrock Aladdin."
+      - skill:
+        name: Quantitative Investment Analysis
+        description: "Backtesting of investment strategies, simulations and reporting for clients,
+        portfolio construction as well as risk and performance analysis."
