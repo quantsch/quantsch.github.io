@@ -27,16 +27,3 @@ _Remarks: A fully documented version with vignettes will be available soon._
 Please use the following code to download the package:
 
 <script src="https://gist.github.com/quantsch/58a65d1fc7118f2c03f80988fcd790b2.js"></script>
-
-
-## R Package: MVOU
-
-This package contains functions and methods to fit mean-reverting multivariate Ornstein-Uhlenbeck processes.
-An S3 class called &quot;MVOU&quot; is implemented that creates fittes objects from which forecasts, various plots and backtests with open and closed loop frameworks can be obtained.
-A two-period optimization for maximum Sharpe portfolio weights is implemented and can be used in combination with the Strategy-package.
-
-_Remarks: A fully documented version with vignettes will be available soon._
-
-Please use the following code to download the package: 
-
-<script src="https://gist.github.com/quantsch/f8efe55ca1611e5ddd99fff0468d3ed2.js"></script>
