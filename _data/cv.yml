@@ -39,7 +39,8 @@ experiences:
     title: Experience
 
     experiences:
-        - company: Fisch Asset Management AG, Zurich
+        - company: Fisch Asset Management AG
+          location: Zurich
           relevant: true
           roles:
               - title: Multi Asset Solutions Portfolio Manager
@@ -65,27 +66,32 @@ experiences:
                 description: "Development of a server-side, R-based portfolio management analytics environment 
                 for the Multi Asset Solutions team, including proprietary R packages and
                 a dedicated read-optimized database. Introduced the citizen developers concept to create own analysis and reports."
-        - company: DDM AG, Baar
+        - company: DDM AG
+          location: Baar
           relevant: false
           roles: 
               - title: Quantitative Analyst
                 time: January 2017 - December 2017
-        - company: Bouygues E&S FM Schweiz AG, Zurich
+        - company: Bouygues E&S FM Schweiz AG
+          location: Zurich
           relevant: false
           roles: 
             - title: Business Intelligence Manager (80%)
               time: February 2014 - February 2016
-        - company: Bank Frey & Co. AG, Zurich
+        - company: Bank Frey & Co. AG
+          location: Zurich
           relevant: false
           roles:
             - title: Business Intelligence Analyst (80%)
               time: July 2013 - January 2014
-        - company: PwC AG, Zurich
+        - company: PwC AG
+          location: Zurich
           relevant: false
           roles:
             - title: Support Assistant
               time: July 2011 - June 2013
-        - company: Bombardier Transportation AG, Zurich
+        - company: Bombardier Transportation AG
+          location: Zurich
           relevant: false
           roles:
             - title: Intern HQ Management

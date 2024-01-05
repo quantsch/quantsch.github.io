@@ -6,7 +6,7 @@
 {% for experience in relevant_experiences %}
 <div class="item">
 
-    <div class="company">{{ experience.company }}</div>
+    <div class="company">{{ experience.company }}, {{ experience.location }}</div>
 
     <div class="roles">
     {% for role in experience.roles %}
@@ -33,7 +33,7 @@
                 <div class="role">
                     <div class="role-title">{{ role.title }}</div>
                     <div class="role-time">{{ role.time }}</div>
-                    <div class="role-company">{{ experience.company }}</div>
+                    <div class="role-company">{{ experience.company }}, {{ experience.location }}</div>
                 </div>
             {% endfor %}
         {% endfor %}
