@@ -5,6 +5,14 @@ sidebar:
     tagline: Leveraging Technology To Accelerate Business
     avatar: profile.png  # 100x100px
 
+    # Personal details
+    address:
+      place: Uetikon
+      link: https://maps.app.goo.gl/ump2W4T27q629AGg7
+    birth:
+      year: 1990
+      link: https://en.wikipedia.org/wiki/1990s
+
     # Sidebar links
     email: jb@quants.ch
     phone: +41 79 201 11 74
