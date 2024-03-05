@@ -2,31 +2,31 @@
   <ul class="list-unstyled contact-list">
 
     {% if sidebar.email %}
-    <li class="email"><i class="fas fa-envelope"></i>
+    <li><i class="fas fa-envelope fa-fw"></i>
       <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.phone %}
-    <li class="phone"><i class="fas fa-phone"></i>
+    <li><i class="fas fa-phone"></i>
       <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.website %}
-    <li class="website"><i class="fas fa-globe-americas"></i>
+    <li><i class="fas fa-globe-americas fa-fw"></i>
       <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.linkedin %}
-    <li class="linkedin"><i class="fab fa-linkedin"></i>
+    <li><i class="fab fa-linkedin fa-fw"></i>
       <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.github %}
-    <li class="github"><i class="fab fa-github"></i>
+    <li><i class="fab fa-github fa-fw"></i>
       <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
     </li>
     {% endif %}
