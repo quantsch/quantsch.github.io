@@ -15,8 +15,6 @@ layout: default
 
     <p class="name">{{ sidebar.name }}</p>
 
-    <p class="tagline">{{ sidebar.tagline }}</p>
-
   </div>
 
   {% include _cv/_sidebar/contact.html %}
