@@ -5,11 +5,11 @@ permalink: /projects/
 ---
 
 
-## R Package: Rd2md
+## [R Package: Rd2md](https://julianbusch.ch/Rd2md/)
 
 This package creates markdown version of the reference manual for a package. The reference manuals are natively created within R by calling R CMD Rd2pdf.
 However, with this package, a more general markdown format is available and could be processed into any other format. For issues, please
-use [github](https://github.com/quantsch/Rd2md).
+use [github](https://github.com/quantsch/Rd2md). For documentation, see [Rd2md](https://julianbusch.ch/Rd2md/).
 
 Please use the following code to download the package: 
 
