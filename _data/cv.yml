@@ -40,6 +40,17 @@ experiences:
     title: Experience
 
     experiences:
+        - company: Sabbatical
+          location: Zurich
+          relevant: true
+          roles:
+              - title: Personal Projects
+                time: February 2024 - today
+                description: "Working on open source projects (primarily on GitHub),
+                contributing to an R course (productive-r-workflow.com) and
+                exploring the idea of one or more commercial SaaS platforms."
+              - title: Full-time Dad
+                time: June 2023 - January 2024
         - company: Fisch Asset Management AG
           location: Zurich
           relevant: true
