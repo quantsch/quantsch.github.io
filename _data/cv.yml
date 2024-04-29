@@ -44,13 +44,10 @@ experiences:
           location: Zurich
           relevant: true
           roles:
-              - title: Personal Projects
-                time: February 2024 - today
-                description: "Working on open source projects (primarily on GitHub),
-                contributing to an R course (productive-r-workflow.com) and
-                exploring commercial SaaS ideas."
-              - title: Full-time Dad
-                time: June 2023 - January 2024
+              - title: "Personal Time For Projects & Family"
+                time: June 2023 - today
+                description: "Enjoying time with family, working on open source
+                projects, contributing to an R course (productive-r-workflow.com) and exploring commercial SaaS ideas."
         - company: Fisch Asset Management AG
           location: Zurich
           relevant: true
