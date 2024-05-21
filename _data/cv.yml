@@ -47,7 +47,9 @@ experiences:
               - title: "Personal Time For Projects & Family"
                 time: June 2023 - today
                 description: "Enjoying time with family, working on open source
-                projects, contributing to an R course (productive-r-workflow.com) and exploring commercial SaaS ideas."
+                projects, contributing to an R course (productive-r-workflow.com)
+                and developing \"tsrisk\" - a risk & performance metrics
+                calculation platform for price time series."
         - company: Fisch Asset Management AG
           location: Zurich
           relevant: true
