@@ -49,7 +49,7 @@ experiences:
                 description: "Enjoying time with family, working on open source
                 projects, contributing to an R course (productive-r-workflow.com)
                 and developing \"tsrisk\" - a risk & performance metrics
-                calculation platform for price time series."
+                calculation platform for price time series built in Python on AWS."
         - company: Fisch Asset Management AG
           location: Zurich
           relevant: true
