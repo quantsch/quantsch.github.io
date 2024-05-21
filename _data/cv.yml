@@ -71,8 +71,8 @@ experiences:
                 time: January 2019 - March 2020
                 description: "Migration of a variety of services to AWS, using
                 DevOps methodology and cloud-native infrastructure as code.
-                Development of RiskEngine, a backend services exposed through a REST API that
-                calculates risk and performance metrics on timeseries."
+                Development of RiskEngine, a backend service exposed through a REST API that
+                calculates risk and performance metrics on time series."
               - title: Quantitative Developer
                 time: January 2018 - December 2018
                 description: "Development of a server-side, R-based portfolio management analytics environment 
