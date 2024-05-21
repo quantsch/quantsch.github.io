@@ -134,11 +134,6 @@
             }
         }
     }
-}
-
-.cv-main-wrapper {
-    background: #fff;
-    padding: 0 40px 50px 40px;
 
     .cv-site-version {
         // this keeps element dimensions in place
@@ -148,6 +143,11 @@
         bottom: 0px;
         font-size: 10px;
     }
+}
+
+.cv-main-wrapper {
+    background: #fff;
+    padding: 0 40px 50px 40px;
 
     // CV CONTENT 
 

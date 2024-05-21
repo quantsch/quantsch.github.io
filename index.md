@@ -22,6 +22,10 @@ layout: default
   {% include _cv/_sidebar/language.html %}
   {% include _cv/_sidebar/interests.html %}
 
+  <div class=" container-block cv-site-version">
+      Version <a href="{{ site.data.general.github-tree-url }}/{% include site-version.txt %}">{% include site-version.txt %}</a>
+   </div>
+
 </div>
 
 
@@ -30,9 +34,5 @@ layout: default
     {% include _cv/_main/career-profile.html %}
     {% include _cv/_main/experience.html %}
     {% include _cv/_main/skills.html %}
-
-   <div class="section cv-site-version">
-      Version <a href="{{ site.data.general.github-tree-url }}/{% include site-version.txt %}">{% include site-version.txt %}</a>
-   </div>
 
 </div>
