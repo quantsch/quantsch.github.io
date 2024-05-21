@@ -108,13 +108,13 @@ skills:
     skills:
       - skill:
         name: R, Python
-        description: "Used R as primary language for fully reproducible research, analysis and models
+        description: "Used R as primary language for research, analysis and models
         in the context of portfolio management, Python for all other production backend services.
         Everything was version controlled through git."
       - skill:
         name: DevOps
         description: "Deployed Docker-based services through Github CI/CD,
-        including fully automated testing, to Amazon AWS, using
+        to build, test and deploy to AWS, using
         infrastructure as code with Terraform and AWS CDK."
       - skill:
         name: Project Management
